@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--2. css embebido-->
+    <style>
+
+        h3{
+            color: white;
+        }
+        div{
+            padding: 20px;
+        }
+        .containeruno{
+            border: 3px solid red;
+            border-radius: 10px;
+        }
+
+        .containerdos{
+            border-style: dotted;
+            border-color: black;
+        }
+
+        .containertres{
+            border-style: double;
+            border-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    
+    
+<!--1. css en linea -->
+    <!-- Modelo box model-->
+     <div class="containeruno" style="color: blue; width: 100%; background: #12ade0; overflow: hidden;">
+        
+        <p>Parrafo Hijo dentro de un div....</p>
+        <h2>Bienvenidos al lenguage en cascada o maqueta css</h2>
+        <h3>Este es un h3 con codigo enbebido</h3>
+     </div>
+     <br>
+     <div class="containerdos" style="color: rgb(7,66,7); width: 200; height: 300; background:hsl(9,100%,64%); overflow: auto;">
+        
+        <p>Parrafo Hijo dentro de un div....</p>
+        <h2>Bienvenidos al lenguage en cascada o maqueta css</h2>
+        <h3>Este es otro h3 con codigo enbebido</h3>
+     </div>
+     <br>
+
+     <div class="containertres" style="color: rgb(7,66,7); width: 50%; background:rgba(222,53,229); overflow: scroll;">
+        
+        <p>Parrafo Hijo dentro de un div....</p>
+        <h2>Bienvenidos al lenguage en cascada o maqueta css</h2>
+
+     </div>
+
+</body>
+</html>
